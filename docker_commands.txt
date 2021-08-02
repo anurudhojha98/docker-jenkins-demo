@@ -1,0 +1,11 @@
+
+docker run -p external_port:internal_port -d image_name
+docker logs container_id
+docker build . -t username/app_name
+docker stop container_id
+docker image rm image_id
+docker login
+docker logout
+docker tag local_tag_name new_tag_name
+docker images
+docker push tag_name
